@@ -1,11 +1,23 @@
 {"versions": [{"versiontype": "proofreading", 
-	     "title": "The lexeme in descriptive and theoretical morphology",
-	     "authors": [{"name": "Olivier Bonami"},
-			  {"name": "Gilles Boyé "},
-			  {"name": "Georgette Dal "},
-			  {"name": "Hélène Giraudo"},
-			  {"name": "Fiammetta Namer"}
-			],
-	      "publishedAt": "2018-03-21T12:38:55.000Z"}
+             "title": "The lexeme in descriptive and theoretical morphology",
+             "authors": [{"name": "Olivier Bonami"},
+                          {"name": "Gilles Boyé "},
+                          {"name": "Georgette Dal "},
+                          {"name": "Hélène Giraudo"},
+                          {"name": "Fiammetta Namer"}
+                        ],
+              "publishedAt": "2018-03-21T12:38:55.000Z"},
+              {"versiontype": "first_edition", 
+             "title": "The lexeme in descriptive and theoretical morphology", 
+             "authors": [{"name": "Olivier Bonami"},
+                          {"name": "Gilles Boyé "},
+                          {"name": "Georgette Dal "},
+                          {"name": "Hélène Giraudo"},
+                          {"name": "Fiammetta Namer"}
+                        ],
+              "publishedAt": "2018-03-21T12:38:55.000Z",
+              "license": "CC-BY",
+              "DOI": "10.5281/zenodo.1402520"    
+              }
 	      ]
 }

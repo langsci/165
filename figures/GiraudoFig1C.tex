@@ -1,0 +1,14 @@
+\tikzstyle{dbl}=[<->,>=latex,line width=1mm]
+\tikzstyle{spl}=[->,>=latex,line width=1mm]
+\tikzstyle{n}=[inner sep=0,outer sep=0,minimum height=3em,align=center]
+\begin{tikzpicture}[framed]
+\node[n] (A) at  (0,7.5)	{Concepts};
+\node[n] (B) at (0,5.5)	{Morpho-semantic units};
+\node[n] (C) at (0,3.5)	{Words};
+\node[n] (D) at (0,1.5)	{Morpho-orthographic\\ unit};
+\node[n] (E) at (0,0)	{complex/pseudo complex\\ word};
+\draw[dbl] (B)--(A);
+\draw[dbl] (C)--(B);
+\draw[dbl] (D)--(C);
+\draw[spl] (E)--(D);
+\end{tikzpicture}

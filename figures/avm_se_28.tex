@@ -1,0 +1,22 @@
+\documentclass{standalone}
+\usepackage{avm}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\begin{document}
+\begin{avm}
+\[$copv-lexm$ \\
+LID & [COP] \\
+SYN & \[HEAD & [PRED +] \\
+              VAL & [\@1 SPR & {\it\q< NP \| null\q>}] \\
+&                       [\@2 COMPS & {\it\q<NP \| NOM \| PP \| ADJP \| ADV \| gap\q>}] \\
+             ARG-ST  & \q<\@1, \@2 \q> \]\\
+FORM & \[STEM \q<\@A,\@B,\@C \q> \]\\
+SEM & \[MODE & $prop$ \\
+INDEX & $s$ \\
+RESTR & \[RLN & $cop$ \\
+              SIT & $s$ \\
+              SBJ & $i$ \\
+              PRED & $j pred stlev$ \| $indlev$ \] \] \\
+\]
+\end{avm}
+\end{document}
